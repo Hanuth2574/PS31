@@ -10,7 +10,7 @@ export const Hero = () => {
   return (
     <section >
       
-      <div className="container p-2 lg:mt-5 md:mt-5 mt-16  ">
+      <div className="container p-2  lg:mt-5 md:mt-5 mt-16    ">
 
         <div className="text-center max-w-full mx-auto mt-8">
           <div className="text-4xl lg:text-7xl tracking-tight md:text-6xl font-medium mb-6 mx-auto sm:max-w-xs md:max-w-md lg:max-w-3xl">
@@ -22,7 +22,7 @@ export const Hero = () => {
           <button className="bg-orange-600 mt-6 rounded-lg p-2">Sign up</button>
         </div>
 
-        <div className="backdrop-blur items-center justify-center flex overflow-hidden">
+        <div className="backdrop-blur mt-16 md:mt-0 lg:mt-0 items-center justify-center flex overflow-hidden">
           <motion.div 
             animate={{rotate: 360}} 
             transition={{duration: 5, repeat: Infinity, ease: "linear"}}
