@@ -10,7 +10,7 @@ export const Hero = () => {
   return (
     <section >
       
-      <div className="container p-2 lg:mt-5 md:mt-5 mt-7 ">
+      <div className="container p-2 lg:mt-5 md:mt-5 mt-16  ">
 
         <div className="text-center max-w-full mx-auto mt-8">
           <div className="text-4xl lg:text-7xl tracking-tight md:text-6xl font-medium mb-6 mx-auto sm:max-w-xs md:max-w-md lg:max-w-3xl">
@@ -26,7 +26,7 @@ export const Hero = () => {
           <motion.div 
             animate={{rotate: 360}} 
             transition={{duration: 5, repeat: Infinity, ease: "linear"}}
-            className="orb z-10 relative top-32 h-40 w-40 md:h-60 md:w-60 rounded-full shadow-[-40px_-40px_50px_#ff8c00,40px_-40px_50px_#ff8c00,40px_40px_50px_#fffa5b,-40px_40px_50px_#ff8c00]"
+            className="orb z-10 relative md:top-32 lg:top-32 top-24 h-40 w-40 md:h-60 md:w-60 rounded-full shadow-[-40px_-40px_50px_#ff8c00,40px_-40px_50px_#ff8c00,40px_40px_50px_#fffa5b,-40px_40px_50px_#ff8c00]"
             style={{
               filter: "blur(10px)"
             }}
