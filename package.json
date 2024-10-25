@@ -22,7 +22,8 @@
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.4.0",
-    "three": "^0.169.0"
+    "three": "^0.169.0",
+    "vercel": "^37.12.1"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",

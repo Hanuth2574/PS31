@@ -5,7 +5,6 @@ import starbg from "@/assets/stars.png"
 import { motion, useMotionValue, useMotionValueEvent, useScroll, useTransform } from "framer-motion"
 import { useRef } from "react"
 import styles from "./Hero.module.css"
-import Avatars from "@/app/aipage/Avatars"
 
 export const Hero = () => {
   return (
