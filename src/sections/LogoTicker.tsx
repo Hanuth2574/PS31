@@ -8,7 +8,7 @@ import a5 from "@/assets/logo-echo.png";
 import {motion} from "framer-motion"
 export const LogoTicker = () => {
   return (
-    <section className="py-10">
+    <section className="py-10 ">
       <div className="container ">
         <div className="flex items-center">
           <div className="flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]" >

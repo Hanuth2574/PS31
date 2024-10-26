@@ -21,7 +21,7 @@ export const CallToAction = () => {
           <div className="h-60 w-full p-0 border border-white/20 rounded-lg">
             <div className="h-full relative w-full bg-[radial-gradient(circle_at_0%_-40%,#fcd34d,#ae5534,transparent_50%)] rounded-lg">
               <div className="absolute inset-0 flex flex-col gap-4 items-center justify-center">
-                <h2 className="text-5xl tracking-tighter font-sans text-center text-white">Diet plan</h2>
+                <h2 className="text-3xl md:text-5xl tracking-tighter font-sans text-center text-white">Diet plan</h2>
                 <p className="text-md text-white/50 font-sans tracking-tight text-center max-w-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nostrum aut ab doloremque quaerat od amet!
                 </p>
@@ -34,7 +34,7 @@ export const CallToAction = () => {
           <div className="h-60 w-full p-0 border border-white/20 rounded-lg">
             <div className="h-full relative w-full bg-[radial-gradient(circle_at_100%_-40%,aqua,#1c63a4,transparent_50%)] rounded-lg">
               <div className="absolute inset-0 flex flex-col gap-4 items-center justify-center">
-                <h2 className="text-5xl tracking-tighter font-sans text-center text-white">Work plan</h2>
+                <h2 className="text-3xl md:text-5xl tracking-tighter font-sans text-center text-white">Work plan</h2>
                 <p className="text-md text-white/50 font-sans tracking-tight text-center max-w-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nostrum aut ab doloremque quaerat od amet!
                 </p>
@@ -51,7 +51,7 @@ export const CallToAction = () => {
     
   </div>
   <div className="absolute inset-0 flex flex-col gap-4 items-center justify-center">
-                <h2 className="text-5xl tracking-tighter font-sans text-center text-white"> Poster analysis </h2>
+                <h2 className="text-3xl md:text-5xl tracking-tighter font-sans text-center text-white"> Poster analysis </h2>
                 <p className="text-md text-white/50 font-sans tracking-tight text-center max-w-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nostrum aut ab doloremque quaerat od amet!
                 </p>
