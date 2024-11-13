@@ -15,7 +15,7 @@ export const Header = () => {
             <Image src={logo} alt="Logo" width={44} height={44} />
           </div>
           <div className="font-mono">About</div>
-          <Link href="/aipage" className="font-mono" >WorkOut</Link>
+          <Link href="/workout" className="font-mono" >WorkOut</Link>
           <div className="font-mono">Dietplan</div>
           <Link href="/aipage" className="font-mono">Queries</Link>
           <button className="bg-orange-600 rounded-lg p-2">Sign up</button>
