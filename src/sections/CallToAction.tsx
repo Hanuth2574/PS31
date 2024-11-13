@@ -89,6 +89,7 @@ export const CallToAction = () => {
 
         <motion.div 
           variants={fadeUpVariants}
+          transition={{delay:1}}
           className="w-full h-56 border border-white/20 p-0 rounded-lg relative"
         >
           <div className="absolute inset-0 h-full w-full md:bg-[radial-gradient(circle_at_-20%_-280%,#fcd34d_40%,#ae5534,transparent_60%)] bg-[radial-gradient(circle_at_-20%_-120%,#fcd34d_40%,#ae5534,transparent_60%)] lg:bg-[radial-gradient(circle_at_-20%_-280%,#fcd34d_40%,#ae5534,transparent_60%)] rounded-lg"></div>
