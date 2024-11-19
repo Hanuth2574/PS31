@@ -21,25 +21,20 @@ model = genai.GenerativeModel(
   generation_config=generation_config,
 )
 
+
 @app.route('/generate', methods=['POST'])
 def generate_response():
     try:
-        # Get the message from the request body
         data = request.json
         if not data:
             raise ValueError("No message provided")
         
         message = data.get('message', '')
         
-        # Start a new chat session
-        chat_session = model.start_chat(
-            history=[]
-        )
         
-        # Generate response
-        response = chat_session.send(message)
+        response =  model.generate_content(message)
         
-        return jsonify({'response': str(response.content, 'utf-8')})
+        return jsonify({'response': response.text})
     
     except Exception as e:
         error_message = f"An error occurred: {str(e)}"
