@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import WorkoutSchedule from "./Plan";
-
 interface FormData {
   age: string;
   sex: string;
@@ -12,7 +11,11 @@ interface FormData {
   experience: string;
 }
 
+
 function Form() {
+
+  
+
   const [response, setResponse] = useState("");
   const [showForm, setShowForm] = useState(true);
   const [formData, setFormData] = useState<FormData>({
