@@ -37,10 +37,10 @@ const Page=()=> {
   }, []);
   return (
     <>
-    {form.length===0?(<div>
+  <div>
       <Header/>
       <Form/>
-    </div>):(<WorkoutSchedule rawWorkoutString={form} />)}
+    </div>
     </>
   )
 }

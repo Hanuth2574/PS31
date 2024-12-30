@@ -1,8 +1,9 @@
 from flask import Flask, request, jsonify
-import os
+from flask_cors import CORS  # Import CORS
 import google.generativeai as genai
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 genai.configure(api_key='AIzaSyB5TvELjrn4IBXBoqBgJ_KBwCZPPUwbo-E')
 
@@ -29,8 +30,7 @@ def generate_response():
         
         message = data.get('message', '')
         
-        
-        response =  model.generate_content(message)
+        response = model.generate_content(message)
         
         return jsonify({'response': response.text})
     

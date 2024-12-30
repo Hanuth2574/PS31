@@ -17,7 +17,7 @@ export default function Search({ onSendComplete }: SearchProps) {
   async function Output(input: string, addConversation: (conversation: Conversation) => void) {
     setInput("");
     try {
-      const response = await fetch("https://5010-34-68-89-68.ngrok-free.app/generate", {
+      const response = await fetch("http://localhost:5000/generate", {
         headers: { "Content-Type": "application/json" },
         method: "POST",
         body: JSON.stringify({ input_sequence: input }),
@@ -25,8 +25,9 @@ export default function Search({ onSendComplete }: SearchProps) {
 
       if (response.ok) {
         const res = await response.json();
-        const output = res["output"].split("assistant")[1]?.trim() || "";
-        addConversation({ question: input, response: output });
+        // const output = res["output"].split("assistant")[1]?.trim() || "";
+        console.log(res)
+        
       } else {
         console.error('Failed to fetch data');
       }
